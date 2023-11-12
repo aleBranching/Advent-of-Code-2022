@@ -1,0 +1,21 @@
+{
+  "name": "2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules   node_modules/jest/bin/jest.js",
+    "test-watch": "node --experimental-vm-modules   node_modules/jest/bin/jest.js --watchAll"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
