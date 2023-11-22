@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules   node_modules/jest/bin/jest.js",
+    "day5": "nodemon day5/index2.js",
     "test-watch": "node --experimental-vm-modules   node_modules/jest/bin/jest.js --watchAll"
 
   },
